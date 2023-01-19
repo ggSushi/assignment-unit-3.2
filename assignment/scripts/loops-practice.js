@@ -80,10 +80,12 @@ while (num < 6) {
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');
 
+//Answer 1
+
 num = 10;
-while (num < 11) {
-  if (num <= 10 && num > 4) {
-    console.log(num);
-  }
+while (num <= 10 && num > 4) {
+  console.log(num);
   num--;
 }
+
+
